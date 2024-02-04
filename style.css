@@ -220,11 +220,7 @@ align-items: center;
                          
 }
 .skills_item {
-    display: flex;
-    justify-content: space-between;
-    background: var(--color2);
-    border-radius: 10px;
-    
+
 }
 .speaking_item,.writing_item, .reading_item, .listening_item{
     display: flex;
@@ -233,14 +229,13 @@ align-items: center;
     background: var(--color2);
     text-align: center;
     text-align: left;
+    border-radius: 10px;
     
 }  
 .speaking_item{
     grid-area: 1 / 1 / 3 / 2;
-    
     height: 84%;
     width: 100%;
-
 }
 .speaking_inside{
     display: flex;
@@ -250,13 +245,24 @@ align-items: center;
         margin-bottom: 8%;
         margin-right: 10%;
     }
-
+    .speaking_img {
+        height: 99%;
+        width: 94.5%;
+        padding-top: 7%;
+        padding-left: 4.5%;
+    }
+    .spk_btn{
+        margin-bottom: 91px;
+        width: 53%;
+     }
+     .speaking_item h3, .writing_item h3, .reading_item h3, .listening_item h3{
+        margin-left: 9%;
+     }
 .writing_item{
     grid-area: 1 / 2 / 2 / 3;
 }
 .reading_item{
     grid-area: 1 / 3 / 2 / 4;
-
 }
 .writing_item, .reading_item, .listening_item{
 
@@ -288,20 +294,7 @@ align-items: center;
     margin-left: 9%;
     font-size: 1.25em;
 }
-.speaking_img {
-    height: 99%;
-    width: 94.5%;
-    padding-top: 7%;
-    padding-left: 4.5%;
-   
-}
-.spk_btn{
-    margin-bottom: 91px;
-    width: 53%;
- }
- .speaking_item h3, .writing_item h3, .reading_item h3, .listening_item h3{
-    margin-left: 9%;
- }
+
  .writing_img {
     margin-top: 6%;
     margin-left: 28%;
@@ -311,11 +304,6 @@ align-items: center;
 .writing_inside p{
     margin-right: 10%;
     margin-bottom: 4%;
-}
-
-
-.itm_h3 {
-    
 }
 .itm_p {
     margin-left: 9%;
@@ -363,16 +351,27 @@ align-items: center;
     padding-right: 0;
 }
 
-
-
-
-
-
-
 @media screen and (max-width:1240px){
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        font-size: 2.25em;
+    }
+    h3{
+        font-size: 1.4em;
+    }
     .left_learn{
         padding-right: 30px;
     }
+    p{
+        font-size: 0.875em; 
+    }
+    .skills_grid{
+        padding-left: 3.4%;
+       padding-right: 2.75%;
+    }
+
 }
 @media screen and (max-width:992px){
     .container{
@@ -460,15 +459,81 @@ align-items: center;
         padding-top: 70px;
         padding-left: 64px;
         padding-right: 65px;
-
     }
     .learn_img{
         width: 111%;
-
+    }
+    .skills h2{
+        padding-top: 4%;
+       padding-bottom: 5%;
     }
 
+    .speaking_item{
+        height: 76.66%;
+    }
+    .speaking_img{
+        padding-top: 0.5%;
+        height: 96%;
+        width: 93%; 
+    }
+    .speaking_inside h3{
+        margin-top: -4.75%;
+    }
+    .speaking_inside p{
+        margin-bottom: 12.5%;
+        margin-right: 8%;
+    }
+    .itm_btn{
+        width: 65%;
+        font-size: 1.175em;
+    }
+    .writing_img{
+        margin-top: 10.5%;
+        margin-left: 29%;
+        height: 85%;
+        width: 66.5%;
+    }
+    .writing_inside{
+        margin-top: -5%;
+    }
+    .writing_inside p{
+        
+        margin-right: 6.95%;
+        margin-bottom: 4%;
+    }
+    .reading_img {
+        margin-top: 5%;
+        height: 90%;
+        width: 82%; 
+    }
+    .listening_item{
+        max-height: 230px;
+    }
+    .listening_inside{
+        margin-top: -10%;
+    }
+    .lis_p{
+        margin-top: -5%;
+        max-width: 110%;
+        margin-bottom: 5%;
+      }
+      .listening_img{
+        
+        width: 93.5%;
+        height: 95%;
+        padding-left: 11%;
+      }
 }
 @media screen and (max-width:767px){
+    h2{
+        font-size: 1.8em;
+    }
+    h3{
+        font-size: 1.25em;
+    }
+    p{
+        font-size: 0.8em; 
+    }
     .container{
         max-width: 767px;
     }
@@ -529,8 +594,85 @@ align-items: center;
     .learn_img{
         width: 130%;
     }
+    .skills h2{
+        padding-top: 7%;
+        padding-bottom: 4.5%;       
+    }
+    .skills_grid{
+        padding-left: 4.9%;
+       padding-right: 3.6%;
+    }
+    .speaking_item{
+        height: 76%;
+    }
+    .speaking_img{
+        padding-top: 14%;
+        padding-left: 1.9%;
+        height: 99%;
+        width: 95%; 
+    }
+    .speaking_inside h3{
+        margin-top: 0;
+    }
+    .speaking_inside p{
+        margin-bottom: 21.5%;
+        margin-right: 6%;
+        margin-left: 7.5%;
+    }
+    .itm_btn{
+        width: 78%;
+        height: 50px;
+        font-size: 1em;
+        margin-left: 8%;
+    }
+    .writing_img {
+        margin-top: 18%;
+        margin-left: 1.9%;
+        height: 80%;
+        width: 85%;
+    }
+    .writing_inside h3{
+        margin-left: 6%;
+    }
+    .writing_inside p{
+        margin-right: 6%;
+        margin-bottom: 4%;
+    }
+    .writing_inside button{
+        margin-left: 6%;
+    }
+    .reading_img {
+        margin-top: 15%;
+        margin-left: 0;
+        height: 76%;
+        width: 100%;
+    }
+    .reading_inside h3{
+        margin-top: -7%;
+        margin-left: 6.5%;
+    }
+    .reading_inside p{
+        padding-right: 10%;
+        margin-left: 6.5%;
+     }
+     .listening_item{
+        max-height: 217px;
+    }
+    .listening_inside{
+        margin-top: -6%;
+    }
+    .listening_img{
+        margin-top: 18.5%;
+        width: 97%;
+    }
 }
 @media screen and (max-width:575px){
+    h2{
+        font-size: 1.9em;
+    }
+    h3{
+        font-size: 1.15em;
+    }
     .container{
         max-width: 575px;
     }
@@ -589,12 +731,80 @@ align-items: center;
        padding-right: 0;
        padding-top: 20px;
        padding-left: 75px;
-
     }
     .learn_img{
         width: 85%;
-       
     }
+    .skills h2{
+        padding-top: 16.8%;
+        padding-bottom: 5.9%;
+        padding-left: 2%; 
+    }
+    .skills_grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding-left: 5.5%;
+        padding-right: 5.25%;
+        gap: 5%;
+     }
+     .skills_item {
+
+     }
+     .speaking_item{
+        grid-area: 1 / 1 / 2 / 2;
+        height: 84%;
+        width: 100%;
+    }
+    .speaking_img{
+        padding-top: 0;
+        padding-left: 4%;
+        height: 92%;
+        width: 80%; 
+    }
+    .speaking_inside h3{
+        margin-top: -11.5%;
+        margin-left: 7.5%;
+    }
+    .speaking_inside p{
+        margin-bottom: 10%;
+    }
+    .itm_btn{
+        font-size: 0.9em;
+        margin-left: 6.6%;
+        width: 82%;
+    }
+    .writing_item{
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    .writing_img {
+        margin-top: 10.5%;
+        margin-left: 10%;
+        height: 82%;
+        width: 75%;
+    }
+    .writing_inside h3{
+        margin-top: -162%;
+        margin-left: 7.9%;
+    }
+    .writing_inside p{
+        margin-right: 18%;
+        margin-bottom: 37%;
+    }
+    .writing_inside button{
+        margin-left: 7%;
+    }
+
+    .reading_item{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .listening_item{
+        grid-area: 2 / 2 / 3 / 3;
+        display: flex;
+        flex-direction: column-reverse;
+        max-height: 343px;
+        align-items: center;
+    }
+
 }
     @media screen and (max-width:320px){
         .container{
