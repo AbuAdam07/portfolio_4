@@ -501,6 +501,61 @@ margin-top: 0%;
 .p_575{
     display: none;
 }
+.contact_us {
+    margin-top: 16%;
+}
+.contact_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_img {
+    width: 30%;
+    margin-left: 7%;
+}
+.contact_right {
+    
+}
+.contact_h2 {
+    text-align: left;
+    margin-left: 10.5%;
+    margin-top: -5%;
+    margin-bottom: 3.5%;
+}
+.contact_p {
+    color: rgb(143, 149, 165);
+    font-family: 'Poppins';
+    font-size: 1.25em;
+    font-weight: 400;
+    max-width: 79%;
+    line-height: 1.5em;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 5%;
+}
+.contact_down {
+    display: flex;
+}
+.contact_input {
+    border: 1px solid rgb(143, 149, 165);
+    border-radius: 10px;
+    max-width: 450px;
+    padding: 3% 21%;
+    padding-left: 3%;
+    margin-left: 11%;
+    margin-right: 1.5%;
+}
+.contact_btn {
+    border-radius: 10px;
+    background: rgb(38, 50, 56);
+    width: 26%;
+    font-size: 1.25em;
+    color: #FFF;
+}
+.contact_575{
+    display: none;
+}
+
 
 
 @media screen and (max-width:1240px){
@@ -721,11 +776,15 @@ margin-top: 0%;
     .pricing{
         margin-top: 5.5%;
     }
+    .br_992{
+        display: block;
+    }
     .pricing_flex{
         margin-top: 2%;
     }
     .pricing_p{
         font-size: 1em;
+        white-space: nowrap;
     }
     .pricing_h4{
         font-size:  1.5em;
@@ -788,6 +847,32 @@ margin-top: 0%;
                 margin-top: 10%;
                 margin-left: 9%;
             }
+.contact_us{
+    margin-top: 14%;
+}
+.contact_img {
+    width: 31.5%;
+    margin-left: 1%;
+}
+.contact_h2 {
+    margin-left: 18.5%;
+    margin-top: -6%;
+    margin-bottom: 0%;    
+}
+.contact_p{
+    font-size: 1em;
+    max-width: 68%;
+    margin-left: 16.5%;
+}
+.contact_input{
+    padding: 3% 9%;
+    margin-left: 16.5%;
+    margin-right: 2%;
+}
+.contact_btn{
+    width: 29%;
+    font-size: 1em;
+}
 
 }
 @media screen and (max-width:883px){
@@ -1037,7 +1122,37 @@ margin-top: 0%;
             .personal_cost{
                 margin-top: 16%;
                 margin-left: -2%;
-            }    
+            }
+.contact_us{
+    margin-top: 11.5%;
+    }
+    .contact_img {
+        width: 31%;
+        margin-left: 3%;
+    }
+    .contact_h2 {
+        margin-left: 6.8%;
+        margin-top: -11%;
+        margin-bottom: -1%; 
+    }
+    .contact_p{
+        font-size: 0.85em;
+        max-width: 75%;
+        margin-left: 7%;
+        margin-bottom: 5%;
+    }
+    .contact_input{
+        border-radius: 5px;
+        padding: 3.5% 12.7%;
+        margin-left: 7%;
+        margin-right: 1%;
+        font-size: 0.75em;
+    }
+    .contact_btn{
+        border-radius: 5px;
+        width: 29%;
+        font-size: 0.85em;
+    }
 }
 
 
@@ -1324,6 +1439,47 @@ margin-top: 0%;
         margin-left: 17%;
         width: 60%;
             }  
+.contact_575{
+    display: block;
+    text-align: center;
+}
+.contact_h2{
+    display: none;
+}
+.contact_flex{
+    flex-direction: column;
+}
+.contact_us {
+    margin-top: 28%;
+}
+.contact_img {
+    width: 62%;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.contact_p{
+    font-size: 1em;
+    max-width: 82%;
+    text-align: center;
+    margin-left: 8.8%;
+    margin-top: 5.5%;
+}
+.contact_down{
+    margin-top: 10.5%;
+}
+.contact_input{
+    border-radius: 10px;
+    margin-left: 5.5%;
+    margin-right: 0;
+    padding: 3.85% 14.6%;
+}
+.contact_btn{
+    border-radius: 10px;
+    font-size: 1em;
+    width: 33.5%;
+}
+
+
 
 }
     @media screen and (max-width:515px){
@@ -1615,3 +1771,40 @@ margin-top: 0%;
     margin-left: 22%;
     width: 54%;
 }
+.contact_us{
+    margin-top: 22%;
+    }
+.contact_575{
+font-size: 1.5em;
+}
+.contact_img {
+    width: 80%;
+    margin-top: 12%;
+    margin-left: 14%;
+}
+.contact_p{
+    font-size: 0.875em;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 11%;
+}
+.contact_down{
+    flex-direction: column;
+}
+.contact_input{
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 4.5%;
+    padding: 5% 0%;
+    margin-bottom: 0;
+}
+.contact_btn{
+    border-radius: 5px;
+    margin-left: 5%;
+    font-size: 0.875em;
+    padding: 6% 0%;
+    width: 90%;
+    margin-top: 5.5%;
+    
+}
+    }
