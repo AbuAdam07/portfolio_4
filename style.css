@@ -997,6 +997,7 @@ footer{
         display: none;
     }
     .menu_btn_small{
+        cursor: pointer;
         display: contents;
         margin: 0;
 
@@ -1250,7 +1251,76 @@ footer{
         margin-left: 18.5%;
         margin-top: 4%;
     }
-}
+
+    .mobile_menu {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-self: left;
+        text-align: left;
+    }
+    .mobile_close {
+        position: absolute;
+        left: 90%;
+        top: 5.5%;
+
+    }
+    .mobile_menu_logo {
+        padding-left: 0;
+        margin-top: 46%;
+        margin-left: -102%;
+        margin-bottom: 32%;
+        width: 82%;
+    }
+    .line {
+        margin-bottom: 9%;
+
+    }
+    .mobile_ul{
+        margin-left: 1.5%;
+        margin-bottom: 15%;
+    }
+    .mobile_ul li a{
+        text-decoration: none;
+        list-style: none;  
+        color: rgb(38, 50, 56);
+        font-family: 'Poppins';
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 60px;
+        letter-spacing: 0%;
+        text-align: left;    
+    }
+    .mobile_a{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .mobile_menu_btn{
+        color: #000;
+        font-family: 'Poppins';
+        font-size: 1.25em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 52.5%;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 2px solid #263238;
+        cursor: pointer;
+        margin-left: 10%;
+        text-align: center;
+
+        text-decoration: none;
+    }
+
+    .mobile_menu_btn:hover{
+        color: var(--color3);
+        background: var(--color1);
+        }
+    }
+    
+
 
 @media screen and (max-width:635px){
     .foot_menu ul{
@@ -1967,6 +2037,9 @@ footer{
 }
 .foot_menu ul li a{
     font-size: 0.7em;
+}
+.mobile_menu_logo{
+    margin-left: -75%;
 }
     }
 }
