@@ -1701,9 +1701,9 @@ footer{
         white-space: wrap;
     }
 }
- @media screen and (max-width:360px){
+ @media screen and (max-width:384px){
     .writing_inside button{
-        margin-bottom: 11.5%;
+        margin-bottom: 13%;
     }
     .self_study_cost{
         width: 50%;
