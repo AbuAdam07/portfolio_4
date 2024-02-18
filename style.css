@@ -67,6 +67,7 @@
     background: #FFF;
   }
 .top_menu {
+    
 }
 .top_inside{
     display: flex;
@@ -74,13 +75,14 @@
     align-items: center;
     padding-right: 130px;
     padding-left: 130px;
-    padding-top: 55px;
+    margin-top: 3.5%;
     
 }
 .top_menu_logo {
     width: 8%;
     margin: 0;
-    padding-bottom: 13px;
+    margin-top: -1%;
+    
 }
 .menu_inside{
     margin: 0;
@@ -575,9 +577,7 @@ footer{
     justify-content: center;
     margin-top: 0%;
 }
-.top_menu_logo {
-    margin-top: -10%;
-}
+
 .foot_logo {
     
     margin-left: 8.4%;
@@ -1631,6 +1631,20 @@ footer{
         white-space: wrap;
     }
 }
+ @media screen and (max-width:360px){
+    .writing_inside button{
+        margin-bottom: 11.5%;
+    }
+    .self_study_cost{
+        width: 50%;
+    }
+    .contact_input{
+        margin-right: 10%;
+    }
+    .foot_menu_logo{
+        margin-left: 2%;
+    }
+ }
     @media screen and (max-width:320px){
         h2{
             font-size: 1.9em;
